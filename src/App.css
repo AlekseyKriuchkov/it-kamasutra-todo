@@ -6,3 +6,19 @@
 .App > div {
   margin-right: 50px;
 }
+
+.isDone {
+  text-decoration: line-through;
+
+}
+.notIsDone {
+  font-weight: bold;
+}
+.activeFilter {
+  font-weight: bold;
+  background: aqua;
+  border: 2px solid aqua;
+}
+.inputError {
+  border: 2px solid red;
+}
